@@ -1,0 +1,104 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: black;
+    color: limegreen;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    border-bottom: 2px solid limegreen;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+header p {
+    margin-bottom: 20px;
+}
+
+.breaking-news {
+    background-color: red;
+    color: yellow;
+    font-weight: bold;
+    padding: 5px 0;
+    margin: 0 auto 20px auto;
+    width: 80%;
+    max-width: 600px;
+    box-shadow: 0 0 10px limegreen;
+}
+
+nav {
+    background-color: darkgreen;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+.content {
+    padding: 20px;
+    padding-bottom: 40px; /* Doubled padding */
+}
+
+.main-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding-bottom: 40px;
+}
+
+.left-column, .right-column {
+    flex: 1;
+    background-color: #222;
+    padding: 15px;
+    box-shadow: 0 0 10px limegreen;
+}
+
+.middle-column {
+    flex: 4;
+    background-color: #333;
+    padding: 15px;
+    box-shadow: 0 0 10px limegreen;
+    text-align: center; /* Center align content */
+}
+
+.middle-column img {
+    display: block; /* Make the image a block element */
+    margin: 0 auto; /* Center the image horizontally */
+}
+
+.headline {
+    color: yellow;
+    background-color: darkred;
+    padding: 5px;
+}
+
+.latest-post {
+    border: 1px solid limegreen;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.latest-post img {
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    background-color: darkgreen;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
